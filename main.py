@@ -19,8 +19,8 @@ async def main():
 
     chat_completion = AzureChatCompletion(
             deployment_name="gpt-4o-mini",
-            api_key="Fwq8xDGtJGT1hBqLYWRainiLhqLxGGvhwaEEJX2oKOoDKXFlSyYwJQQJ99BCACYeBjFXJ3w3AAAAACOG0dY4",
-            base_url="https://aahbcsandbox4008005311.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2025-01-01-preview",
+            api_key="xxx",
+            base_url="xxx",
     )
     kernel.add_service(chat_completion)
     
